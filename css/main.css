@@ -1,0 +1,20 @@
+/* font-family: 'Lobster Two', cursive;
+font-family: 'Modak', cursive; */
+
+body {
+    background-color: chartreuse;
+}
+
+h1 {
+    font-family: 'Modak', cursive;
+    color: #121FF0;
+    text-align: center;
+    font-size: 72px;
+}
+
+p {
+    font-family: 'Lobster Two', cursive;
+    color: #121FF0;
+    font-size: 56px;
+    text-align: center;
+}
