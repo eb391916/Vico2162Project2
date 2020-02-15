@@ -19,7 +19,22 @@ p {
     text-align: center;
 }
 
-@media screen and (max-width: 800px) {
+a {
+    color: #8E5B5B;
+    transition: all ease-in-out .25s;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:hover {
+    color: #9A9A9A;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
     .images {
        width: 100%;
     }
