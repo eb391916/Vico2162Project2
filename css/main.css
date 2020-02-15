@@ -1,20 +1,38 @@
-/* font-family: 'Lobster Two', cursive;
-font-family: 'Modak', cursive; */
+/* font-family: 'Raleway', sans-serif; */
 
 body {
-    background-color: chartreuse;
+    background-color: #FFF1DA;
 }
 
 h1 {
-    font-family: 'Modak', cursive;
-    color: #121FF0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: #3B3B3B;
     text-align: center;
-    font-size: 72px;
+    font-size: 60px;
 }
 
 p {
-    font-family: 'Lobster Two', cursive;
-    color: #121FF0;
-    font-size: 56px;
+    font-family: 'Raleway 400', sans-serif;
+    color: #3B3B3B;
+    font-size: 20px;
     text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .images {
+       width: 100%;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 14px;
+    }
 }
